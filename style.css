@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+}
+html,body{
+    font-size: 62.5%;
+}
+
+.box{
+    width: 50vw;
+    height: 40vh;
+    background: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: -1px 1px 3px 4px black;
+    border-radius: 1rem;
+}
+
+.start-quotes{
+    font-size: 2rem;
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.quote{
+font-size: 3rem;
+text-align: center;
+}
+
+.author{
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+    font-size: 2rem;
+text-align: center;
+}
+
+#newQ{
+    padding: 0.6rem;
+    background: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+#tweetMe{
+    padding: 0.6rem;
+    background: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media(max-width:600px){
+    .quote{
+        font-size: 2rem;
+        text-align: center;
+        }
+        
+        .author{
+            margin-top: 0.2rem;
+            margin-bottom: 0.3rem;
+            font-size: 1.5rem;
+        text-align: center;
+        }
+}
